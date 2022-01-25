@@ -1,0 +1,54 @@
+[{
+    "model": "accounts.user",
+    "pk": 1,
+    "fields": {
+      "email": "firstteacher@foobar.com",
+      "name": "First Teacher",
+      "is_staff": true,
+      "is_superuser": false
+    }
+  },
+  {
+    "model": "accounts.user",
+    "pk": 2,
+    "fields": {
+      "email": "secondteacher@foobar.com",
+      "name": "Second Teacher",
+      "is_staff": true,
+      "is_superuser": false
+    }
+  }, {
+    "model": "accounts.user",
+    "pk": 3,
+    "fields": {
+      "email": "firststudent@foobar.com",
+      "name": "First Student",
+      "is_staff": false,
+      "is_superuser": false
+    }
+  },
+  {
+    "model": "accounts.user",
+    "pk": 4,
+    "fields": {
+      "email": "secondstudent@foobar.com",
+      "name": "Second Student",
+      "is_staff": false,
+      "is_superuser": false
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 1,
+    "fields": {
+      "teacher_id": 1
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 2,
+    "fields": {
+      "teacher_id": 2
+    }
+  }
+]

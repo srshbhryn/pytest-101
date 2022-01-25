@@ -1,0 +1,15 @@
+[{
+  "model": "first_app.setting",
+  "pk": 11,
+  "fields": {
+    "key": "foo0",
+    "value": "bar0"
+  }
+}, {
+  "model": "first_app.setting",
+  "pk": 22,
+  "fields": {
+    "key": "foo1",
+    "value": "bar1"
+  }
+}]

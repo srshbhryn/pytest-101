@@ -1,0 +1,9 @@
+add student
+<form method="POST">
+    {% csrf_token %}
+    <label for="fname">course id:</label><br>
+    <input type="text" id="course_id" name="course_id"><br>
+    <label for="lname">student id:</label><br>
+    <input type="text" id="student_id" name="student_id">
+    <button type="submit">Submit</button>
+</form>
